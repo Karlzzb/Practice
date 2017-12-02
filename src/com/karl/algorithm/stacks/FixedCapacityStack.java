@@ -1,4 +1,4 @@
-package com.karl.simple;
+package com.karl.algorithm.stacks;
 
 import java.util.Iterator;
 
