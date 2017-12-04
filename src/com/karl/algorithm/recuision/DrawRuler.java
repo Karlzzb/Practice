@@ -15,7 +15,6 @@ public class DrawRuler {
 			drawLine(centralLength);
 			drawInterval(centralLength - 1);
 		}
-
 	}
 
 	private static void drawLine(int tickLength, int tickLable) {
@@ -32,6 +31,6 @@ public class DrawRuler {
 	}
 
 	public static void main(String[] args) {
-		drawRuler(10, 4);
+		drawRuler(10, 3);
 	}
 }
