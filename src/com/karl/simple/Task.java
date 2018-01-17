@@ -9,6 +9,7 @@ public class Task extends Observable {
 		isComplete = true;
 		setChanged();
 		notifyObservers();
+
 	}
 
 	public boolean getStatus() {
